@@ -1,0 +1,40 @@
+{
+  // "_id": ObjectId("612d1e835ebee16872a109a4"),
+  "username": "ab",
+  "password": "c",
+  "roles": "user", // or 0
+  "email": "a@a.com",
+  "firstName": "a",
+  "lastName": "b",
+  "coverPicture": "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg", // url
+  "profilePicture": "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg", // url
+  "country": "Canada",
+  "city": "Calgary",
+  "friends": // make sure we do not delete all of the instances for this user => obj of obj vs array of obj
+  [
+    {
+      "userId": "612d1e835ebee16872a109a4",
+      "date": "12-Jun-2023",
+    }
+  ],
+  "sentRequests": [
+    {
+      "userId": "612d1e835ebee16872a109a4",
+      "date": "12-Jun-2023",
+      "message": "hi"
+    }
+  ],
+  "receivedRequests": [
+    {
+      "userId": "612d1e835ebee16872a109a4",
+      "date": "12-Jun-2023",
+      "message": "hi"
+    }
+  ],
+  "blocked": [
+    {
+      "userId": "612d1e835ebee16872a109a4",
+      "date": "12-Jun-2023",
+    }
+  ]
+}
