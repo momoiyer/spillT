@@ -8,7 +8,6 @@ const ChatConversationItem = (prop: chatConversation) => {
         altText='Profile Picture'
         imageWidth={60}
         imageHeight={30}
-        styleClass='p-2'
       />
       <p>{prop.message}</p>
     </div>
