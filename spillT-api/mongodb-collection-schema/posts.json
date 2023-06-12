@@ -1,0 +1,38 @@
+{
+  "postDescription": "slayyyy",
+  "postImage": "https://pyxis.nymag.com/v1/imgs/618/0a9/d04d34a833c6656c02dc608d1adc0d563a-iCim4eXE-400x400.rsquare.w330.jpg",
+  "userId": "xx",
+  "createdAt": "12-Jun-2023",
+  "postLikes": {
+    "xy": {
+      "1": true
+    }
+  },
+  "comments": {
+    "yy": { //comment Id
+      "commentDetails": "love it!",
+      "commentImage": "https://pyxis.nymag.com/v1/imgs/618/0a9/d04d34a833c6656c02dc608d1adc0d563a-iCim4eXE-400x400.rsquare.w330.jpg",
+      "createdAt": "12-Jun-2023",
+      "userId": "xy",
+      "commentLikes": {
+        "xx": { //need to be userId
+          "1": true
+        }
+      }
+    },
+    "yz": { //comment Id
+      "commentDetails": "slay queen",
+      "commentImage": "https://pyxis.nymag.com/v1/imgs/618/0a9/d04d34a833c6656c02dc608d1adc0d563a-iCim4eXE-400x400.rsquare.w330.jpg",
+      "createdAt": "12-Jun-2023",
+      "userId": "xz",
+      "commentLikes": {
+        "xx": { //need to be userId
+          "1": true
+        },
+        "xy": { //need to be userId
+          "1": true
+        }
+      }
+    }
+  }
+}

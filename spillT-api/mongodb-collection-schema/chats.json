@@ -1,0 +1,26 @@
+{
+  //check if the user is friend to decide which message tab to show under (normal messages vs requested)
+  "users": [
+    "xx",
+    "xx",
+    "xx"
+  ],
+  "conversations": [
+    {
+      "userId": "xx",
+      "createdAt": "xx", //date format?
+      "messaage": "Give me some tea!",
+      "chatImage": "xx", //optional, url link
+      "chatVideo": "xx", //optional, url link
+      "isRead": false
+    },
+    {
+      "userId": "xx",
+      "createdAt": "xx", //date format?
+      "messaage": "Give me some tea!",
+      "chatImage": "xx", //optional, url link
+      "chatVideo": "xx", //optional, url link
+      "isRead": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    //"NotificationID": 1,
+    "userID": "22",
+    "isRead": true,
+    "type": "1 or 0"
+  },
+  {
+    //"NotificationID": 2,
+    "userID": "11",
+    "isRead": false,
+    "type": "1 or 0"
+  }
+]
