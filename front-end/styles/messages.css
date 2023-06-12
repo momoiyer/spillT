@@ -1,0 +1,11 @@
+.messages__search {
+  background-color: beige;
+}
+
+.messages__preview {
+  background-color: chocolate;
+}
+
+.messages__conversation {
+  background-color: rgb(102, 145, 145);
+}
