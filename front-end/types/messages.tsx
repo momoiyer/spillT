@@ -2,7 +2,7 @@ interface chatProp {
   styleClass: string;
 }
 
-interface chatConversation {
+interface chatConversationProp {
   profilePicture?: profilePicture;
   message: string;
 }

@@ -1,6 +1,6 @@
 import ProfilePicture from "../common/ProfilePicture";
 
-const ChatConversationItem = (prop: chatConversation) => {
+const ChatConversationItem = (prop: chatConversationProp) => {
   return (
     <div className='flex flex-row p-10'>
       <ProfilePicture
