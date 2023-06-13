@@ -7,7 +7,7 @@ const ProfilePicture = (props: profilePicture) => {
       alt={props.altText}
       width={props.imageWidth}
       height={props.imageHeight}
-      className={props.styleClass} />
+      className={props.styleClass ? props.styleClass : "profile-picture"} />
   );
 };
 

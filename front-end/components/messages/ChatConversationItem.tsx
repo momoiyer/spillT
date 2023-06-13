@@ -1,6 +1,6 @@
 import ProfilePicture from "../common/ProfilePicture";
 
-const ChatConversationItem = (prop: chatConversation) => {
+const ChatConversationItem = (prop: chatConversationProp) => {
   return (
     <div className='flex flex-row p-10'>
       <ProfilePicture
@@ -8,7 +8,6 @@ const ChatConversationItem = (prop: chatConversation) => {
         altText='Profile Picture'
         imageWidth={60}
         imageHeight={30}
-        styleClass='p-2'
       />
       <p>{prop.message}</p>
     </div>

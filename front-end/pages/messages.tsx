@@ -1,6 +1,6 @@
+import ChatConversation from "@/components/messages/ChatConversation";
 import ChatFriendSearch from "@/components/messages/ChatFriendSearch";
 import ChatPreviewList from "@/components/messages/ChatPreviewList";
-import ChatConversation from "@/components/messages/ChatConversation";
 
 const Messages = () => {
   return (

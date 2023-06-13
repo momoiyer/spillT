@@ -9,3 +9,8 @@
 .messages__conversation {
   background-color: rgb(102, 145, 145);
 }
+
+.profile-picture {
+  border-radius: 50%;
+  background-color: rgba(243, 236, 198, 0.404);
+}
