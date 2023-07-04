@@ -7,7 +7,7 @@ const Messages = () => {
   return (
     <section className="flex justify-around p-5 bg-cyan-100 dark:bg-cyan-800 dark:text-white">
       {/* Left side section with search bar and chat preview */}
-      <article className="basis-1/4 bg-cyan-200">
+      <article className="basis-1/4 bg-cyan-200 dark:bg-cyan-700">
         <ChatFriendSearch styleClass="p-5" />
         <ChatPreviewList styleClass="p-5" />
       </article>
