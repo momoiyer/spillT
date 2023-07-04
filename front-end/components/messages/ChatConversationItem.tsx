@@ -6,8 +6,6 @@ const ChatConversationItem = (prop: chatConversationProp) => {
       <ProfilePicture
         imageUrl='/profile.png'
         altText='Profile Picture'
-        imageWidth={60}
-        imageHeight={30}
       />
       <p>{prop.message}</p>
     </div>

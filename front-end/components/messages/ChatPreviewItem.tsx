@@ -6,9 +6,6 @@ const ChatPreviewItem = () => {
       <ProfilePicture
         imageUrl='/profile.png'
         altText='Profile Picture'
-        imageWidth={60}
-        imageHeight={30}
-        styleClass='p-2'
       />
       <div className=''>
         <p>Jordan King</p>

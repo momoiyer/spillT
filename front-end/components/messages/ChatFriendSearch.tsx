@@ -2,10 +2,6 @@
 const ChatFriendSearch = (props: chatProp) => {
   return (
     <div className={props.styleClass}>
-      <h1>Here is a search box to search indivial chat or group chat with participant name</h1>
-
-
-
       <form>
         <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
         <div className="relative">

@@ -1,7 +1,7 @@
 interface profilePicture {
   imageUrl: string;
   altText: string;
-  imageWidth: number;
-  imageHeight: number;
+  imageWidth?: number;
+  imageHeight?: number;
   styleClass?: string;
 }
