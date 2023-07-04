@@ -6,6 +6,10 @@ const ChatPreviewList = (props: chatProp) => {
       <ChatPreviewItem />
       <ChatPreviewItem />
       <ChatPreviewItem />
+      <ChatPreviewItem />
+      <ChatPreviewItem />
+      <ChatPreviewItem />
+      <ChatPreviewItem />
     </div>
   );
 };
