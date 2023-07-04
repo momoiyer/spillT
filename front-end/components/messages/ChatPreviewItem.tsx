@@ -2,12 +2,12 @@ import ProfilePicture from '../common/ProfilePicture';
 
 const ChatPreviewItem = () => {
   return (
-    <div className='flex flex-row p-10'>
+    <div className='flex items-center flex-row p-3 '>
       <ProfilePicture
         imageUrl='/profile.png'
         altText='Profile Picture'
       />
-      <div className=''>
+      <div className='ml-4'>
         <p>Jordan King</p>
         <p>last message is this...</p>
         <p>this message was sent 5hrs ago</p>
