@@ -1,5 +1,6 @@
 interface chatProp {
   styleClass: string;
+  onClickToggle?: () => void;
 }
 
 interface chatConversationProp {

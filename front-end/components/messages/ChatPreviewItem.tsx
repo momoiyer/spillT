@@ -1,8 +1,8 @@
 import ProfilePicture from '../common/ProfilePicture';
 
-const ChatPreviewItem = () => {
+const ChatPreviewItem = (props: any) => {
   return (
-    <div className='flex items-center flex-row p-3 '>
+    <div className='flex items-center flex-row p-3' onClick={props.onClickToggle}>
       <ProfilePicture
         imageUrl='/profile.png'
         altText='Profile Picture'
