@@ -1,15 +1,18 @@
 import ProfilePicture from "../common/ProfilePicture";
+import classNames from "classnames";
 
 const ChatConversationItem = (prop: chatConversationProp) => {
+  const className = classNames('flex flex-row p-5 items-center', {
+    'justify-end': prop.owner
+  });
   return (
-    <div className='flex flex-row p-10'>
+    <div className={className}>
       <ProfilePicture
         imageUrl='/profile.png'
         altText='Profile Picture'
-        imageWidth={60}
-        imageHeight={30}
+        imageWidth={30}
       />
-      <p>{prop.message}</p>
+      <p className="ml-2">{prop.message}</p>
     </div>
   );
 };
