@@ -4,8 +4,7 @@ const routes = require("./routes/routes");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 
-const MONGO_URL =
-  "mongodb+srv://ilovespam1917:testing123@cluster0.63gcmiq.mongodb.net/CompanyDB?retryWrites=true&w=majority";
+const MONGO_URL =//add mangoDB url plz ;
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
